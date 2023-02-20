@@ -10,6 +10,11 @@ h3 {
   align-items: center;
   flex-wrap: wrap;
 }
+.reset-button {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
 
 .grid-row {
   display: flex;

@@ -11,6 +11,9 @@ const createGrid = (amtofGrids) => {
     for (let j = 0; j < amtofGrids; j++) {
       const gridBox = document.createElement("div");
       gridBox.classList.add("grid-box");
+      gridBox.addEventListener("mouseenter", () => {
+        gridBox.style.backgroundColor = "black";
+      });
       row.appendChild(gridBox);
     }
     container.appendChild(row);
